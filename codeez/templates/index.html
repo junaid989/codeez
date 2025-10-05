@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CodeEZ - Interactive Web Dev Learning</title>
+<link rel="stylesheet" href="/static/css/styles.css">
+<script src="/static/js/app.js"></script>
+</head>
+<body>
+<h1>Welcome to CodeEZ!</h1>
+<p>Select a topic to start learning:</p>
+<div id="topics">
+    <button onclick="loadLessons('flexbox')">Flexbox</button>
+    <button onclick="loadLessons('nested_flexbox')">Nested Flexbox</button>
+    <button onclick="loadLessons('grid')">Grid</button>
+</div>
+<div id="editor-preview">
+    <textarea id="code" placeholder="Type your code here"></textarea>
+    <iframe id="preview"></iframe>
+</div>
+<div id="explanation"></div>
+<button onclick="prevStep()">Previous Step</button>
+<button onclick="nextStep()">Next Step</button>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "title": "Flexbox Basics",
+    "description": "Learn how Flexbox works to align and distribute items in a container.",
+    "steps": [
+        {
+            "explanation": "Step 1: Create a container with display:flex.",
+            "example": "<div class='container'><div>Item 1</div><div>Item 2</div></div>",
+            "css": ".container { display: flex; border: 2px solid #000; padding: 10px; }",
+            "hint": "Use 'display:flex' to start using Flexbox"
+        },
+        {
+            "explanation": "Step 2: Use justify-content to align items horizontally.",
+            "example": "<div class='container'><div>Item 1</div><div>Item 2</div></div>",
+            "css": ".container { display: flex; justify-content: space-between; border: 2px solid #000; padding: 10px; }",
+            "hint": "Try 'flex-start', 'center', 'space-around' as values"
+        }
+    ]
+}

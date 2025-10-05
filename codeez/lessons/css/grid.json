@@ -1,0 +1,12 @@
+{
+    "title": "CSS Grid Basics",
+    "description": "Learn how to use CSS Grid for 2D layouts.",
+    "steps": [
+        {
+            "explanation": "Step 1: Create a container with display:grid and 2 columns.",
+            "example": "<div class='grid'><div>1</div><div>2</div><div>3</div><div>4</div></div>",
+            "css": ".grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border: 2px solid #000; padding: 10px; }",
+            "hint": "Use 'grid-template-columns' to define columns"
+        }
+    ]
+}
